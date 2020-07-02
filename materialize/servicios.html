@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pagina con MAterialize</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/jquery-ui.min.css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/materialize.min.css'>
+    <script src='js/jquery.js'></script>
+    <script src='js/materialize.min.js'></script>
+    <script src='js/misfunciones.js'></script>
+
+</head>
+
+<body>
+
+    <!-- barra de navegacion -->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="hache.html">HACHE.MOTOS</a></li>
+        <li><a href="nosotros.html">NOSOTROS</a></li>
+        <li><a href="ayuda.html">AYUDA</a></li>
+    </ul>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo">Inicio</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+                <!-- Dropdown Trigger -->
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">NOSOTROS<i class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="image/18.jpg">
+                <!-- random image -->
+                <div class="caption center-align">
+                    <!-- Modal Trigger -->
+                    <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Venta de supermotard</a>
+                    <a class="waves-effect waves-light btn modal-trigger" href="#modal2">Venta de accesorios</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Supermotos</h4>
+            <p>Disponibles</p>
+            <div class="row">
+                <div class="col s12">
+                    <ul class="tabs">
+                        <li class="tab col s3"><a href="#test1">HUSKVARNA</a></li>
+                        <li class="tab col s3"><a class="active" href="#test2">KTM</a></li>
+                        <li class="tab col s3"><a href="#test3">KAWASAKI</a></li>
+                        <li class="tab col s3"><a href="#test4">HONDA</a></li>
+                    </ul>
+                </div>
+                <div id="test1" class="col s12">
+                    <img class="materialboxed" data-caption="A picture of a way with a group of trees in a park" width="250" src="image/10.jpg">
+                </div>
+                <div id="test2" class="col s12">
+                    <img class="materialboxed" data-caption="A picture of a way with a group of trees in a park" width="250" src="image/11.jpg">
+                </div>
+                <div id="test3" class="col s12">
+                    <img class="materialboxed" data-caption="A picture of a way with a group of trees in a park" width="250" src="image/6.jpg">
+                </div>
+                <div id="test4" class="col s12">
+                    <img class="materialboxed" data-caption="A picture of a way with a group of trees in a park" width="250" src="image/19.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">SALIR</a>
+        </div>
+    </div>
+    <!-- Modal Structure -->
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <h4>Accesorios</h4>
+            <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">SALIR</a>
+        </div>
+    </div>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h3 class="white-text">Tienda de motos HACHE</h3>
+                    <h5 class="white-text">Trabajo presentado por:</h5>
+                    <p class="grey-text text-lighten-4">Hector Chamorro.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Siguenos en nuestras redes sociales</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">FACEBOOK</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">TWITER</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">INSTAGRAM</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">WHATSAPP</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2020 Copyright Text
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
